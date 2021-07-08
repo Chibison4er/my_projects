@@ -1,0 +1,23 @@
+name: EasyBan
+main: by.chibis.easy.EasyBan
+version: 0.1
+loadbefore: [WorldEdit, WorldGuard]
+commands:
+    ban:
+      description: EasyBan cmd
+      usage: /ban <user> <reason>
+    unban:
+      description: Easy unban cmd
+      usage: /unban <player>
+    tempban:
+      description: EasyTempBan cmd
+      usage: /tempban <player> <timeInMin> <reason>
+    tempmute:
+      description: EasyTempMute cmd
+      usage: /tempmute <player> <time> <reason>
+    mute:
+      description: EasyMute cmd
+      usage: /mute <player> <reason>
+    unmute:
+      description: EasyUnMute cmd
+      usage: /unmute <player>

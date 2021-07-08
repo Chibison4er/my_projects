@@ -1,0 +1,183 @@
+banPrefix: '&7[&2Easy&6Ban&7]&r '
+#==================================================================
+#==================================================================
+banUrl: 'jdbc:mysql://srv789.memvds.ru:3306/'
+banDataBase: 'testt'
+banTable: 'easyban'
+banUser: 'testt'
+banPass: 'testt'
+temp:
+- 'Punishment_type:_%s'
+- 'Your_name:_%s'
+- 'Who_ban:_%s'
+- 'Reason:_%s'
+- 'End_ban_time:_%s'
+#==================================================================
+#     GroupSettings (prioritet by PermissionsEx Ladder Rank System)
+#==================================================================
+groups:
+- 'vip:900'
+- 'premium:800'
+- 'creative:700'
+- 'elite:600'
+#==================================================================
+#     PunishmentSettings 
+#==================================================================
+muteDisallowedCmds:
+- 'tell'
+- 'msg'
+- 'r'
+- 'etell'
+#==================================================================
+# Syntaxis:       groupName:
+#					whetherBan: false
+#				    banLimit: 0
+#				    whetherTempBan: false
+#				    tempBanLimit: 0
+#				    tempBanMaxTime: 0
+#				    whetherUnBan: false
+#				    unBanLimit: 0
+#				    whetherMute: false
+#				    muteLimit: 0
+#				    whetherTempMute: true
+#				    tempMutemaxTime: 2
+#				    tempMuteLimit: 0
+#				    whetherUnMute: true
+#				    unMuteLimit: 0
+#				    whetherPushJuniorGroup: false
+#==================================================================
+groupPunishment:
+  vip:
+    whetherBan: false
+    banLimit: 0
+    whetherTempBan: false
+    tempBanLimit: 0
+    tempBanMaxTime: 0
+    whetherUnBan: false
+    unBanLimit: 0
+    whetherMute: false
+    muteLimit: 0
+    whetherTempMute: true
+    tempMutemaxTime: 5
+    tempMuteLimit: 2
+    whetherUnMute: true
+    unMuteLimit: 5
+    whetherPushJuniorGroup: true
+  premium:
+    whetherBan: false
+    banLimit: 0
+    whetherTempBan: false
+    tempBanLimit: 0
+    tempBanMaxTime: 0
+    whetherUnBan: false
+    unBanLimit: 0
+    whetherMute: true
+    muteLimit: 5
+    whetherTempMute: true
+    tempMutemaxTime: 5
+    tempMuteLimit: 10
+    whetherUnMute: true
+    unMuteLimit: 0
+    whetherPushJuniorGroup: true
+  creative:
+    whetherBan: false
+    banLimit: 0
+    whetherTempBan: true
+    tempBanLimit: 3
+    tempBanMaxTime: 15
+    whetherUnBan: false
+    unBanLimit: 0
+    whetherMute: true
+    muteLimit: 10
+    whetherTempMute: true
+    tempMutemaxTime: 15
+    tempMuteLimit: 10
+    whetherUnMute: true
+    unMuteLimit: 10
+    whetherPushJuniorGroup: true
+  elite:
+    whetherBan: true
+    banLimit: 5
+    whetherTempBan: true
+    tempBanLimit: 10
+    tempBanMaxTime: 30
+    whetherUnBan: true
+    unBanLimit: 5
+    whetherMute: true
+    muteLimit: 15
+    whetherTempMute: true
+    tempMutemaxTime: 20
+    tempMuteLimit: 20
+    whetherUnMute: true
+    unMuteLimit: 50
+    whetherPushJuniorGroup: true
+#==================================================================
+#   EasyBan Lang
+#==================================================================
+#Ban msgs
+#==================================================================
+banUsage: '/ban <user> <reason>'
+banYourSelf: 'You can not ban yourself'
+banPlayer: 'Player %s will be banned by reason: %s'
+banBroadcast: 'Player %s was banned by %s by reason: %s'
+banPlayerKickMsg: ' Punishment_type:_%s Your_name:_%s Who_ban:_%s Reason:_%s'
+banDonateHight: 'You can not ban a person whose Donat older than yours!'
+banLimit: 'Today, you spent a limit on the command /ban'
+banPerm: 'You have no rights to command /ban'
+#==================================================================
+#TempBan msgs
+#==================================================================
+tempBanUsage: '/tempban <player> <timeInMin> <reason>'
+tempBanYourSelf: 'You can not ban yourself'
+tempBanMaxTime: 'Max tempban time %s'
+tempBanPlayerKickMsg: ' Punishment_type:_%s Your_name:_%s Who_ban:_%s Reason:_%s End_ban_time:_%s'
+tempBanBroadcast: 'Player %s was banned by %s on %s minutes with reason: %s'
+tempBanDonateHight: 'You can not ban a person whose Donat older than yours!'
+tempBanLimit: 'Today, you spent a limit on the command /tempban'
+tempBanPerm: 'You have no rights to command /tempban'
+#==================================================================
+#UnBan msgs
+#==================================================================
+unBanUsage: '/unban <player>'
+unBanPlayer: 'Player %s unbaned by %s!'
+unBanNoBan: 'This player not banned!'
+unBanYourSelf: 'You can not unban yourself'
+unBanLimit: 'Today, you spent a limit on the command /unban'
+unBanPerm: 'You have no rights to command /unban'
+#==================================================================
+#Mute msgs
+#==================================================================
+muteUsage: '/mute <player> <reason>'
+muteYourSelf: 'You can not mute yourself'
+mutePlayer: 'You will be muted!'
+mutePlayerBroadCast: 'Player %s was muted by %s with reason: %s'
+muteAlready: 'This player already muted!'
+muteDonateHight: 'You can not mute a person whose Donat older than yours!'
+muteLimit: 'Today, you spent a limit on the command /mute'
+mutePerm: 'You have no rights to command /mute'
+#==================================================================
+#TempMute msgs
+#==================================================================
+tempMuteUsage: '/tempmute <player> <time> <reason>'
+tempMuteYourSelf: 'You can not mute yourself'
+tempMuteMaxTime: 'Max tempmute time %s'
+tempMutePlayer: 'You will be muted on %s minutes with reason: %s'
+tempMuteBroadcast: 'Player %s will be muted by %s on %s minutes with reason: %s'
+tempMuteDonateHight: 'You can not mute a person whose Donat older than yours!'
+tempMuteLimit: 'Today, you spent a limit on the command /tempmute'
+tempMutePerm: 'You have no rights to command /tempmute'
+#==================================================================
+#UnMute msgs
+#==================================================================
+unMuteUsage: '/unmute <player>'
+unMutePlayer: 'Player %s will be unmuted by %s!'
+unMuteNoMute: 'Player havnt mute!'
+unMuteLimit: 'Today, you spent a limit on the command /unmute'
+unMutePerm: 'You have no rights to command /unmute'
+#================================================================
+#System msg
+#================================================================
+playerOffline: 'Player is offline!'
+timeNotZero: 'Time can not be 0 or less!'
+autoUnMute: 'You will be unmuted automatical, before %s minutes!'
+globalMute: 'You are in global mute!'
