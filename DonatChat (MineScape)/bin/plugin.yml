@@ -1,0 +1,9 @@
+name: DonatChat
+main: by.chibis.dc.Main
+version: 0.1
+solfdepend: [MSPermissions,PermissionsEx]
+commands:
+    dc:
+      usage: /dc 
+    d:
+      usage: /d <message>
