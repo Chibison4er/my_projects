@@ -1,0 +1,4 @@
+name: ib
+main: by.chibis.ib.Main
+softdepend: [MSTabHeader,MSPermissions,S724Lib]
+version: 0.1

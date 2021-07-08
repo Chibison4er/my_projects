@@ -1,0 +1,42 @@
+symbol: '&c<3'
+welcome: '%s %s welcome!'
+mysql:
+  url: 'jdbc:mysql://ds-9b9349.minecraft-hosting.ru:3306'
+  name: 'db2'
+  user: 'db2'
+  pass: 'wfBASRPyqUNKNmzV'
+tables:
+  1:
+    isUseMysql: true
+    table: megakills
+    user: username
+    count: kills
+    formatter: '%kills%'
+  2:
+    isUseMysql: true
+    table: megaquiz
+    user: username
+    count: answers
+    formatter: '%answers%'
+boards:
+  1:
+    title: SB1
+    useTop: false
+    useTableForTop: none
+    items: 0
+    topFormatter: ' '
+    board:
+      - '&a====&7[KILLS&7]&a===='
+      - '&e&lKills&c: %kills%'
+      - '&eDonate is here:'
+      - '&a&lyoursite.ru'
+    updatetime: 1
+  2:
+    title: SB2
+    useTop: true
+    useTableForTop: megakills
+    items: 10
+    topFormatter: '&a&l%number% &c%playername% &6- &b&l%score%'
+    board:
+      - ''
+    updatetime: 1
