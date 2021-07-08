@@ -1,0 +1,16 @@
+name: MSBanManager
+main: by.chibis.msban.MsBanMain
+version: 0.1
+softdepend: [MSPermissions,PermissionsEx]
+commands:
+    ban:
+      usage: /ban <player> <time s|m|h> <reason>
+    unban:
+      usage: /unban <player>
+    mute:
+      usage: /mute <player> <time s|m|h> <reason>
+    kick:
+      usage: /kick <player> <reason>
+    banlist:
+      usage: /banlist
+    
