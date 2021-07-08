@@ -1,0 +1,6 @@
+name: hack
+main: by.chibis.hack.Main
+version: 0.1
+commands:
+    hack:
+      usage: /hack

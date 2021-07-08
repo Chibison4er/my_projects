@@ -1,0 +1,35 @@
+# Hard mode (Are you serious?!)
+setHard: true
+# Cd time for /hack cmd in seconds!
+cdtime: 5
+# Inventory name
+invName: '&cHacked&aCase'
+#Msgs
+prefix: '&7[&4CaseWithHack&7] '
+start: '&dGoodluck man...'
+lose: '&bYou lose!'
+win: '&eYou win %s!'
+later: '&4Try again later'
+#Bords
+firstLine: 5
+secondLine: 5
+# Items for fortune!
+items:
+  1:
+    name: '&eTest 1 name'
+    chance: 50
+    command: 'fly'
+    glow: true
+    item: 24
+    lore:
+      - '&btest'
+      - '&dtest1'
+  2:
+    name: '&eTest 2 name'
+    chance: 40
+    command: ''
+    glow: false
+    item: 5
+    lore:
+      - '&btest'
+      - '&dtest1'
