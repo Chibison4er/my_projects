@@ -1,0 +1,19 @@
+########################################
+#       MySqlConnector by Chibis       #
+########################################
+keys:
+  url: 'jdbc:mysql://srv789.memvds.ru:3306/'
+  db: 'testt'
+  table: 'test'
+  user: 'testt'
+  pass: 'testt'
+#=======================================
+shop:
+  url: 'jdbc:mysql://srv789.memvds.ru:3306/'
+  db: 'testt'
+  table: 'test2'
+  user: 'testt'
+  pass: 'testt'
+#=======================================
+pexCmd: 'pex user %s group add %s'
+donateUpdate: 'U got %s group!'

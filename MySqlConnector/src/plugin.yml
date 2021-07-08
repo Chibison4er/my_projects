@@ -1,0 +1,8 @@
+name: MySqlConnector
+main: by.chibis.mysqlconnector.MySqlConnector
+version: 0.1
+author: Chibis
+commands:
+    removeuser:
+      description: Remove users from pex & shop DB.
+      usage: /removeuser <name>
