@@ -1,0 +1,112 @@
+#==============
+#Prefix
+#==============
+prefix: '&7[&6megaCase&7] &r'
+#==============
+#Main plugin msgs
+#==============
+msgs:
+- 'nokeys;U no keys for opening keys!'
+- 'noperm;U dont have permission to do this!'
+- 'keys;Your keys: %s'
+- 'useropen;%s opening the case, good luck man!'
+- 'uwin;U won donat group %s!'
+#==============
+#Win msgs
+#==============
+winMsgs:
+- '%s win donate group %s, Grazz man!'
+- 'U want open case? Check keys at: www.furtycraft.ru'
+#==============
+#No keys
+#==============
+noKeys:
+- 'No keys for opening case?'
+- 'Check keys at: www.furtycraft.ru'
+#==============
+#Fotters settings
+#==============
+footers:
+  up:
+    - '==============='
+    - 'MegaCase'
+    - '==============='
+  end: '==============='
+#
+cmd: '/case '
+#==============
+#MegaCase commands settings
+#==============
+cmds:
+- 'help:case.help: - Help menu'
+- 'open:case.open: - Open case'
+- 'count:case.count: - Keys count'
+- 'addkeys:case.admin: - Add keys'
+- 'removekeys:case.admin: - Remove keys'
+#==============
+#Permission command
+#==============
+pexCommand: 'pex user %s group add %s'
+#==============
+#Rolling gui name
+#==============
+guiName: '&b&l-==&c&lRolling&b&l==-'
+#==============
+#Case items
+#==============
+items:
+  vip:
+    chance: 45
+    name: '&7[&2VIP&7]'
+    item: '299:255:255:255'
+    glow: true
+    lore:
+      - '&6&l================='
+      - 'MegaCase by Chibis'
+      - '&6&l================='
+  premium:
+    chance: 45
+    name: '&7[&2PREMIUM&7]'
+    item: '336'
+    glow: true
+    lore:
+      - '&6&l================='
+      - 'MegaCase by Chibis'
+      - '&6&l================='
+  creative:
+    chance: 45
+    name: '&7[&2CREATIVE&7]'
+    item: '265'
+    glow: true
+    lore:
+      - '&6&l================='
+      - 'MegaCase by Chibis'
+      - '&6&l================='
+#==============
+#Group params
+#==============
+groups:
+- 'default:1000'
+- 'vip:900'
+- 'premium:800'
+- 'creative:700'
+- 'elite:600'
+- 'ultra:500'
+- 'legenda:400'
+- 'exclusive:200'
+- 'god:100'
+- 'father:10'
+#==============
+#Rolling params
+#==============
+rollTimeDrop: 4.0
+rollTimeAdd: 1
+rollTimeEnd: 65
+#==============
+#Sound params
+#==============
+soundname: LEVEL_UP
+useRandomPitch: true
+useRandomValue: true
+value: 5.0
+pitch: 1.4

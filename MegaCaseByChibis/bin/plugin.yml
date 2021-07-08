@@ -1,0 +1,7 @@
+name: MegaCase
+main: by.chibis.megacase.MegaCase
+version: 0.1
+commands:
+    case:
+      description: Case help.
+      usage: /case help
