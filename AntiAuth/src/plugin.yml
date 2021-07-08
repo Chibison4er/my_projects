@@ -1,0 +1,7 @@
+name: AuthProtect
+main: by.chibis.aa.Main
+version: 0.1
+softdepend: [AuthMe]
+commands:
+    authprotect:
+      usage: /authprotect

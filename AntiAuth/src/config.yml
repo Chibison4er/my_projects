@@ -1,0 +1,21 @@
+attemptsAuth: 5
+kickMsg:
+  - '&6==========================='
+  - 'You have banned on %times%'
+  - 'REASON: Account hack!'
+  - '[VK] &bhttp://vk.com/neizvadm'
+  - '&6==========================='
+#Time in minutes
+attemptsTimeRecoil: 5
+attemptsLeft: '&6Attempts left&c: &e%s&c/&b%s'
+# s
+# m
+# h
+banTimeType: h
+banTime: 2
+#Mysql
+bdUrl: 'jdbc:mysql://ds-9b9349.minecraft-hosting.ru:3306/'
+bdName: 'db2'
+bdTable: 'aa'
+bdUser: 'db2'
+bdPass: 'wfBASRPyqUNKNmzV'
